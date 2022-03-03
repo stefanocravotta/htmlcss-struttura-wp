@@ -27,7 +27,7 @@
 }
 
 .container.img{
-  height: 400px;
+  height: 300px;
   background-color: yellowgreen;
   margin-bottom: 30px;
 }
@@ -36,11 +36,41 @@
 /* MAIN */
 
 main .box{
-height: 400px;
-background-color: rgb(172, 207, 230);
+height: 500px;
+background-color: rgb(24, 137, 252);
 margin-bottom: 10px;
 }
 
+.top{
+  width: 100%;
+  height: 19%;
+  background-color: rgb(172, 207, 230);
+}
+
+.col{
+  float: left;
+  background-color: rgb(172, 207, 230);
+  height: 76%;
+
+}
+.col-left{
+  width: 28%;
+  margin: 1% 1% 1% 0;
+
+}
+
+.col-center{
+  width: 40%;
+  margin: 1% 1% 1% 1%;
+
+}
+
+
+.col-right{
+  width: 28%;
+  margin: 1% 0 1% 1%;
+
+}
 
 
 /* FOOTER */
