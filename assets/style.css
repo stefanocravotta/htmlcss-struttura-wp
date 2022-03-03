@@ -1,0 +1,51 @@
+
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.container.titolo{
+  height: 100px;
+  background-color: violet;
+  margin-bottom: 30px;
+}
+
+.container.img{
+  height: 400px;
+  background-color: yellowgreen;
+  margin-bottom: 30px;
+}
+
+
+/* MAIN */
+
+main .box{
+height: 400px;
+background-color: rgb(172, 207, 230);
+margin-bottom: 10px;
+}
+
+
+
+/* FOOTER */
+
+footer .container{
+height: 50px;
+background-color: purple;
+}
